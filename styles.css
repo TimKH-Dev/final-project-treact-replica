@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+}
+
+/* 
+
+nav
+
+*/
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo--img {
+  width: 40px;
+  height: 40px;
+}
+
+.nav__title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.nav__link {
+  list-style-type: none;
+}
+
+.nav__links {
+  display: flex;
+  padding: 12px;
+  gap: 8px;
+}
