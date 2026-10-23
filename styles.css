@@ -63,6 +63,10 @@ a:hover {
   text-decoration: none;
 }
 
+.container {
+    padding: 96px 0;
+}
+
 .nav__logo--title {
   font-size: 24px;
   font-weight: 900;
@@ -91,4 +95,6 @@ landing
 
 */
 
-
+.header__txt{
+  
+}
