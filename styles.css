@@ -64,7 +64,7 @@ a:hover {
 }
 
 .container {
-    padding: 96px 0;
+  padding: 96px 0;
 }
 
 .nav__logo--title {
@@ -95,6 +95,76 @@ landing
 
 */
 
-.header__txt{
-  
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.header__img {
+  flex: 1;
+  min-width: none;
+}
+
+.header__txt {
+  max-width: 500px;
+  margin-right: 80px;
+}
+
+.header__des {
+  max-width: 400px;
+  margin: 32px 0;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  padding: 6px;
+  border: 2px solid #e2e8f0;
+  border-radius: 999px;
+}
+
+.email input {
+  flex: 1;
+  min-width: 0;
+  padding: 14px 16px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.email button {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 999px;
+  background: #6415ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.header__title {
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+.header__comp {
+  padding: 75px 0;
+  font-weight: 800;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.header__comp--logos {
+  margin-top: 20px;
+  max-width: 85%;
+}
+
+.header__img img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
