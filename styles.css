@@ -307,3 +307,43 @@ Quality
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
+/* 
+
+Steps
+
+*/
+
+#steps {
+  max-width: 1300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__img--lap img {
+  width: 100%;
+}
+
+.steps__tag {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+}
+
+.steps__des {
+  padding: 20px;
+}
+
+.steps__row {
+  display: flex;
+}
+
+.step {
+  display: flex;
+  font-size: 20px;
+}
+
+.step__num {
+  padding: 12px;
+  font-size: 30px;
+}
