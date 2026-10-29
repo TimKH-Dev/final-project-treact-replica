@@ -244,7 +244,7 @@ Quality
 .qual__all {
   display: flex;
   align-items: center;
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -352,7 +352,7 @@ Steps
 .steps__row {
   display: flex;
   align-items: center;
-  max-width: 1400px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -369,4 +369,28 @@ Steps
 
 .step__list {
   max-width: 350px;
+}
+
+/* 
+
+Value
+
+*/
+
+.val__row {
+  display: flex;
+}
+
+.val__ext {
+  display: flex;
+}
+
+.val__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.val__des {
+  max-width: 600px;
+  
 }
